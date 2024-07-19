@@ -1,0 +1,76 @@
+.previewResumeDiv {
+  width: 50%;
+  max-width: 50%;
+  padding: 5pt;
+  /* border-radius: 16px; */
+  background: #ffffff;
+  box-shadow: 5px 5px 22px #c7c7c7, -5px -5px 22px #ffffff;
+
+  .resumePages {
+
+    max-width: 100%;
+    aspect-ratio: 1 / 1.414;
+  }
+}
+.section{
+  padding: 5pt;
+  /* border: 1px solid black; */
+  h3{
+    font-size: 13pt;
+    border-bottom: 1.5pt solid black;
+  }
+  .contents{
+    font-size: 9pt;
+    padding: 5pt 0;
+  }
+  .other{
+    margin-left: 10pt;
+  }
+}
+.personalDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  h3{
+    font-size: 18pt;
+    border-bottom: none;
+  }
+  .contents{
+    width: 100%;
+    padding: 5pt 0;
+    font-size: 12pt;
+  }
+  .contents > ul {
+    font-size: 8pt;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+.educationSection {
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    .bold {
+      font-weight: bold;
+    }
+  }
+}
+.experienceSection {
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    .bold {
+      font-weight: bold;
+    }
+  }
+}
+.skillsSection {
+.bold{
+  font-weight: bold;
+}
+}
