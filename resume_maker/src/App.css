@@ -1,0 +1,36 @@
+.resumeDiv {
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+
+  .createResumeDiv,
+  .previewResumeDiv {
+    margin: 0 10px;
+  }
+}
+
+@media print {
+  main>h2{
+    visibility:hidden;
+    display: none;
+  }
+  main>p{
+    visibility:hidden;
+    display: none;
+  }
+  .createResumeDiv {
+    visibility:hidden;
+    display: none;
+  }
+  .previewResumeDiv {
+    width: 100%;
+    max-width: 100%;
+    visibility: visible;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    padding: 5pt;
+    border-radius: 0;
+    background:none;
+    box-shadow: none;
+  }
+}
